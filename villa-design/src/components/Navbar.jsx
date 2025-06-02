@@ -14,8 +14,8 @@ const Navbar = () => {
 
       {/* Desktop Navigation */}
       <div className="hidden md:flex items-center space-x-8">
-        <a href="#" className="text-gray-800 hover:text-amber-500">Home</a>
-        <a href="#" className="text-gray-800 hover:text-amber-500">About us</a>
+        <a href="/Home" className="text-gray-800 hover:text-amber-500">Home</a>
+        <a href="/About" className="text-gray-800 hover:text-amber-500">About Us</a>
         <a href="#" className="text-gray-800 hover:text-amber-500">Travel</a>
         
         {/* Booking Dropdown */}
